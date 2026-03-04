@@ -1,2 +1,2 @@
 # MCS Qahwa Service
-Qahwa (coffee) is a springboot microservice
+Qahwa service is a springboot microservice
