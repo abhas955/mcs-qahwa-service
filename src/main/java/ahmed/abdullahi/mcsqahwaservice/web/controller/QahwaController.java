@@ -12,6 +12,7 @@ import java.util.UUID;
 @RequestMapping("/api/v1/qahwa")
 public class QahwaController {
 
+    @GetMapping("/{qahwaId}")
     public ResponseEntity<QahwaDto> getQahwaById(@PathVariable("qahwaId") UUID qahwaId){
         //todo impl
         return new ResponseEntity<>(QahwaDto.builder().build(), HttpStatus.OK);
